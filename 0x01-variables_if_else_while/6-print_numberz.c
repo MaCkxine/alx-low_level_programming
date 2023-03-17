@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers
+ * main - Entry point
  *
  * Return: 0
  */
 int main(void)
 {
-	int n;
+	int i = 48;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-	putchar("\n");
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
 	return (0);
 }
