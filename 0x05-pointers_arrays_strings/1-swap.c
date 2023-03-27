@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - swap values of integer
+ * swap_int - swap values of integer
  * @a: swap integer
  * @b: swap integer
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int y;
 
